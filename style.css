@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-size: 15pt;
+}
+
+.result{
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 350px;
+  height: 85px;
+  position:fixed;
+  margin:5 10px;
+  border-radius: 4px;
+  border-top: 8px  #2F4F4F   ;
+  top: 45px;
+}
+/*.resultValue{
+  margin-left: 6px;
+  font-size: 50px;
+  color: #333333;
+  font-weight: bold;
+}*/
+  
+  .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#1C1C1C;
+  height: 100vh;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  
+}
+
+.keyboard{
+  display: flex;
+  justify-content: space-evenly;
+  background: #2F4F4F;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border:5px solid #ddd;
+  padding: 10px;
+  margin-top: -120px;
+  width: 90%;
+  height: 370px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+ border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+
+.keyboard .kb input{
+  margin: 5px;
+  padding: 4px;
+  margin-top: 5px;
+  background-color: orange;
+  border:  3px solid #000;
+  border-radius: 5px;
+  font-size: 20px;
+  color:#333333;
+  font-weight: 800;
+  box-shadow: 2px 4px #000;
+  width: 60px;
+  height: 60px;
+ 
+  
+}
+
+
+.keyboard .kb input:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+#result{
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0px 4px 2px #2F4F4F  ;
+  border: 8px solid #2F4F4F;
+  font-size: 50px;
+  outline: none;
+  border-radius: 5px;
+  height: 78px;
+  background-color: #FFD700;
+}
+
+.content{
+  background-color:#F8F8FF;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+ */
+  margin-top: 7px;
+  border: 3px solid ghostwhite;
+  box-shadow: 1px 5px 40px #ddd;
+  height: 140px;
+}
+
+
+
+
+ 
+
+@media(min-width:600px){
+  .container{
+    display: flex;
+  width: auto;
+    
+  }
+  .keyboard{
+    width: 80%;
+    height: 185px;
+  }
+  .result{
+    position: absolute;
+    top:33%;
+    border-bottom-color:#000;
+    padding-bottom: 3px;
+    width: 79%;
+    height: 160px;
+  }
+ #result{
+   padding: 40px;
+   height: 150px;
+   border:6px solid #ff0000;
+ }
+}
+
