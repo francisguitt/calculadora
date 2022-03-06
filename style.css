@@ -109,8 +109,8 @@ border-bottom-right-radius: 25px;
 
 
  
-/* 
-@media(min-width:600px){
+
+@media(min-width:760px){
   .container{
     display: flex;
   width: auto;
@@ -118,7 +118,7 @@ border-bottom-right-radius: 25px;
   }
   .keyboard{
     width: 80%;
-    height: 185px;
+    height: auto;
   }
   .result{
     position: absolute;
@@ -126,12 +126,12 @@ border-bottom-right-radius: 25px;
     border-bottom-color:#000;
     padding-bottom: 3px;
     width: 79%;
-    height: 160px;
+    height: auto;
   }
  #result{
    padding: 40px;
    height: 150px;
    border:6px solid #ff0000;
  }
-} */
+}
 
