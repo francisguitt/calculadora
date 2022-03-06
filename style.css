@@ -101,9 +101,7 @@ border-bottom-right-radius: 25px;
 
 
 
- 
-/*================================================================================ */
-  @media(min-width:580px){
+  @media (min-width:580px){
     .result{
       position:absolute;
       top:33%;
