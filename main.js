@@ -9,7 +9,7 @@ function sol(){
   document.getElementById('result').value=y;
   }
   else{
-     erro('Não e possivel ÷ por 0');
+     error('Não e possivel ÷ por 0');
   }
  
 }
